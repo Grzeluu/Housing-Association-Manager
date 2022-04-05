@@ -4,4 +4,6 @@
     <string name="password">Hasło</string>
     <string name="apator_rector_2022">© Apator Rector 2022</string>
     <string name="remember_my_credentials">Zapamiętaj dane logowania</string>
+    <string name="notifications">Powiadomienia</string>
+    <string name="mail">Poczta</string>
 </resources>
