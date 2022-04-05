@@ -3,7 +3,17 @@
   <component name="DesignSurface">
     <option name="filePathToZoomLevelMap">
       <map>
-        <entry key="..\:/Workspace/HousingAssociationManager/app/src/main/res/layout/activity_main.xml" value="0.37552083333333336" />
+        <entry key="..\:/Workspace/HousingAssociationManager/app/src/main/res/drawable-v24/ic_login_selected.xml" value="0.38564102564102565" />
+        <entry key="..\:/Workspace/HousingAssociationManager/app/src/main/res/drawable/app_logo.xml" value="0.38564102564102565" />
+        <entry key="..\:/Workspace/HousingAssociationManager/app/src/main/res/drawable/ic_login.xml" value="0.38564102564102565" />
+        <entry key="..\:/Workspace/HousingAssociationManager/app/src/main/res/drawable/ic_login_selector.xml" value="0.38564102564102565" />
+        <entry key="..\:/Workspace/HousingAssociationManager/app/src/main/res/drawable/ic_logoapator_rectorachromrgbwhite_01.xml" value="0.38564102564102565" />
+        <entry key="..\:/Workspace/HousingAssociationManager/app/src/main/res/drawable/ic_password.xml" value="0.38564102564102565" />
+        <entry key="..\:/Workspace/HousingAssociationManager/app/src/main/res/drawable/ic_password_selected.xml" value="0.38564102564102565" />
+        <entry key="..\:/Workspace/HousingAssociationManager/app/src/main/res/drawable/ic_password_selector.xml" value="0.38564102564102565" />
+        <entry key="..\:/Workspace/HousingAssociationManager/app/src/main/res/drawable/selector_icon_color.xml" value="0.38564102564102565" />
+        <entry key="..\:/Workspace/HousingAssociationManager/app/src/main/res/layout-v26/activity_main.xml" value="0.21145833333333333" />
+        <entry key="..\:/Workspace/HousingAssociationManager/app/src/main/res/layout/activity_main.xml" value="0.33" />
       </map>
     </option>
   </component>
