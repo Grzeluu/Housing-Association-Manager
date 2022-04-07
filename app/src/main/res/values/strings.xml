@@ -6,4 +6,18 @@
     <string name="remember_my_credentials">Zapamiętaj dane logowania</string>
     <string name="notifications">Powiadomienia</string>
     <string name="mail">Poczta</string>
+    <string name="welcome">Witaj, Piotr</string>
+    <string name="more">Więcej</string>
+    <string name="faults">Usterki</string>
+    <string name="voting">Głosowania</string>
+    <string name="releases">Komunikaty</string>
+    <string name="settlements">Rozliczenia</string>
+    <string name="balance">Saldo</string>
+    <string name="search">Wprowadź tekst</string>
+    <string name="payment_deadline">Termin płatnośći</string>
+    <string name="bill">Naliczenie</string>
+    <string name="payment">Wpłata</string>
+    <string name="to_be_paid">Do zapłaty</string>
+    <string name="payment_status">Status rozliczenia</string>
+    <string name="details">Szczegóły</string>
 </resources>

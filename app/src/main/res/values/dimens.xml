@@ -1,5 +1,7 @@
 <?xml version="1.0" encoding="utf-8"?>
 <resources>
-    <dimen name="common_component_margin_horizontal">30dp</dimen>
+    <dimen name="login_screen_margin_horizontal">30dp</dimen>
     <dimen name="textfield_radius">10dp</dimen>
+    <dimen name="common_margin_horizontal">10dp</dimen>
+    <dimen name="margin_month_item_value">14dp</dimen>
 </resources>

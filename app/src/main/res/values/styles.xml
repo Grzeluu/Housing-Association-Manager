@@ -4,7 +4,10 @@
     <style name="login_screen_textfield_style">
         <item name="android:layout_width">match_parent</item>
         <item name="android:layout_height">wrap_content</item>
-        <item name="android:layout_marginStart">@dimen/common_component_margin_horizontal</item>
-        <item name="android:layout_marginEnd">@dimen/common_component_margin_horizontal</item>
+        <item name="android:layout_marginStart">@dimen/login_screen_margin_horizontal</item>
+        <item name="android:layout_marginEnd">@dimen/login_screen_margin_horizontal</item>
     </style>
+
+    <style name="ThemeOverlay_Toolbar">
+        <![CDATA[<style name="MyThemeOverlay_Toolbar" parent="ThemeOverlay.MaterialComponents.Toolbar.Primary">     <!-- color used by navigation icon and overflow icon -->     <item name="colorOnPrimary">@color/....</item> </style>]]></style>
 </resources>

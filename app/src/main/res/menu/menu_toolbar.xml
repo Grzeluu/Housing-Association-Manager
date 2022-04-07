@@ -4,16 +4,16 @@
 
     <item
         android:id="@+id/mail"
+        android:contentDescription="@string/mail"
         android:icon="@drawable/ic_mail"
         android:title="Mails"
-        android:contentDescription="@string/mail"
         app:showAsAction="always" />
 
     <item
         android:id="@+id/notifications"
+        android:contentDescription="@string/notifications"
         android:icon="@drawable/ic_notification"
         android:title="@string/notifications"
-        android:contentDescription="@string/notifications"
         app:showAsAction="ifRoom" />
 
 </menu>

@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+    <item
+        android:id="@+id/settlements"
+        android:enabled="true"
+        android:icon="@drawable/ic_settlement"
+        android:title="@string/settlements"/>
+    <item
+        android:id="@+id/releases"
+        android:enabled="true"
+        android:icon="@drawable/ic_releases"
+        android:title="@string/releases"/>
+    <item
+        android:id="@+id/voting"
+        android:enabled="true"
+        android:icon="@drawable/ic_voting"
+        android:title="@string/voting"/>
+    <item
+        android:id="@+id/faults"
+        android:enabled="true"
+        android:icon="@drawable/ic_fault"
+        android:title="@string/faults"/>
+    <item
+        android:id="@+id/more"
+        android:enabled="true"
+        android:icon="@drawable/ic_more"
+        android:title="@string/more"/>
+</menu>
