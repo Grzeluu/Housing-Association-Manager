@@ -4,22 +4,21 @@
     android:layout_width="match_parent"
     android:layout_height="wrap_content"
     android:layout_marginHorizontal="@dimen/common_margin_horizontal"
-    android:layout_marginTop="5dp"
     android:background="@drawable/bg_solid_blue">
 
     <ImageView
-        android:id="@+id/imageView"
+        android:id="@+id/iv_icon"
         android:layout_width="36dp"
         android:layout_height="36dp"
-        android:layout_marginStart="10dp"
+        android:layout_marginStart="20dp"
         android:layout_marginTop="4dp"
         android:src="@drawable/app_logo"
         app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toTopOf="@+id/materialTextView"
+        app:layout_constraintTop_toTopOf="@id/tv_full_address"
         app:tint="@color/blue_grey" />
 
     <com.google.android.material.textview.MaterialTextView
-        android:id="@+id/materialTextView"
+        android:id="@+id/tv_full_address"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:layout_marginStart="-10dp"
@@ -29,7 +28,7 @@
         android:textColor="@color/white"
         android:textStyle="bold"
         app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintStart_toEndOf="@+id/imageView"
+        app:layout_constraintStart_toEndOf="@+id/iv_icon"
         app:layout_constraintTop_toTopOf="parent" />
 
     <LinearLayout
@@ -42,11 +41,12 @@
         android:paddingHorizontal="10dp"
 
         app:layout_constraintBottom_toBottomOf="parent"
-        app:layout_constraintEnd_toEndOf="@+id/materialTextView"
-        app:layout_constraintStart_toStartOf="@+id/materialTextView"
-        app:layout_constraintTop_toBottomOf="@+id/materialTextView">
+        app:layout_constraintEnd_toEndOf="@id/tv_full_address"
+        app:layout_constraintStart_toStartOf="@id/tv_full_address"
+        app:layout_constraintTop_toBottomOf="@id/tv_full_address">
 
         <com.google.android.material.textview.MaterialTextView
+            android:id="@+id/lbl_balance"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:text="@string/balance"
@@ -54,6 +54,7 @@
             android:textStyle="bold" />
 
         <com.google.android.material.textview.MaterialTextView
+            android:id="@+id/tv_balance"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:layout_marginStart="15dp"

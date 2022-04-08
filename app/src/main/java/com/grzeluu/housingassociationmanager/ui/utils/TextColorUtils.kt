@@ -7,9 +7,14 @@ import com.grzeluu.housingassociationmanager.R
 class TextColorUtils {
     companion object {
         fun TextView.setDependingOnPayment(payment: Double, context: Context) {
-            val color = if (payment >= 0) context.getColor(R.color.green)
-            else context.getColor(R.color.red)
+            val color =
+                when {
+                    (payment > 0) -> context.getColor(R.color.green)
+                    (payment < 0) -> context.getColor(R.color.red)
+                    else -> context.getColor(R.color.black)
+                }
 
+            this.text = payment.toString()
             this.setTextColor(color)
         }
     }
