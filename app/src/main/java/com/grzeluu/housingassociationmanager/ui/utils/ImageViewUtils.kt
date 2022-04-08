@@ -13,11 +13,11 @@ class ImageViewUtils {
             val color: Int
 
             if (status) {
-                icon = AppCompatResources.getDrawable(context, R.drawable.ic_checkbox)!!
-                color = context.getColor(R.color.green)
-            } else {
                 icon = AppCompatResources.getDrawable(context, R.drawable.ic_cancel)!!
                 color = context.getColor(R.color.red)
+            } else {
+                icon = AppCompatResources.getDrawable(context, R.drawable.ic_checkbox)!!
+                color = context.getColor(R.color.green)
             }
             this.setImageDrawable(icon)
             this.setColorFilter(color)

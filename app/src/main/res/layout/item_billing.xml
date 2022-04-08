@@ -158,11 +158,11 @@
             android:orientation="horizontal">
 
             <com.google.android.material.textview.MaterialTextView
-                android:id="@+id/lbl_to_be_paid"
+                android:id="@+id/lbl_to_pay"
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
                 android:layout_gravity="start"
-                android:text="@string/to_be_paid" />
+                android:text="@string/to_pay" />
 
             <com.google.android.material.textview.MaterialTextView
                 android:id="@+id/tv_to_pay"

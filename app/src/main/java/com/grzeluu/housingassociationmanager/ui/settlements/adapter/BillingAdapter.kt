@@ -5,6 +5,7 @@ import android.view.ViewGroup
 import androidx.recyclerview.widget.DiffUtil
 import androidx.recyclerview.widget.ListAdapter
 import androidx.recyclerview.widget.RecyclerView
+import com.grzeluu.housingassociationmanager.R
 import com.grzeluu.housingassociationmanager.data.model.BillingResponse
 import com.grzeluu.housingassociationmanager.databinding.ItemBillingBinding
 import com.grzeluu.housingassociationmanager.ui.utils.TextColorUtils.Companion.setDependingOnPayment
@@ -29,8 +30,8 @@ class BillingAdapter :
     }
 
     override fun onBindViewHolder(holder: BillingViewHolder, position: Int) {
-        getItem(position).let { hourly ->
-            holder.bind(hourly)
+        getItem(position).let { billing ->
+            holder.bind(billing)
         }
     }
 
@@ -44,14 +45,15 @@ class BillingAdapter :
                 tvTitle.text = billing.title
                 tvDate.text = billing.date
                 tvEndDate.text = billing.endDate
-                tvBalance.text = billing.balance.toString()
-                tvChargedFee.text = billing.chargedFee.toString()
                 tvPayment.text = billing.payment.toString()
-                tvToPay.text = billing.toPay.toString()
+
+                lblToPay.text =
+                    if (billing.toPay < 0) context.getString(R.string.excess_payment)
+                    else context.getString(R.string.to_pay)
 
                 tvBalance.setDependingOnPayment(billing.balance, context)
-                tvChargedFee.setDependingOnPayment(-billing.balance, context)
-                tvToPay.setDependingOnPayment(-billing.balance, context)
+                tvChargedFee.setDependingOnPayment(-billing.chargedFee, context)
+                tvToPay.setDependingOnPayment(-billing.toPay, context)
 
                 ivStatus.setStatusIcon(billing.status, context)
             }

@@ -17,7 +17,10 @@
     <string name="payment_deadline">Termin płatnośći</string>
     <string name="bill">Naliczenie</string>
     <string name="payment">Wpłata</string>
-    <string name="to_be_paid">Do zapłaty</string>
+    <string name="to_pay">Do zapłaty</string>
+    <string name="excess_payment">Nadpłata</string>
     <string name="payment_status">Status rozliczenia</string>
     <string name="details">Szczegóły</string>
+    <string name="full_address">%1$s, %2$s %3$s</string>
+
 </resources>
